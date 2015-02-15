@@ -1,3 +1,3 @@
-import * as test from 'jspm_test_subdependency'
+import {Thing1, Thing2} from 'jspm_test_subdependency'
 
-console.log('main');
+console.log('main', new Thing1(), new Thing2());
